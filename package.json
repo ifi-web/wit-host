@@ -3,13 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://ifi-web.github.io/wit-host",
+  "homepage": "https://ifi-web.github.io/wit-host",
   "scripts": {
     "dev": "vite",
-    "build": "npm run build",
+    "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "perdeploy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
