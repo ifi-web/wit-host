@@ -20,7 +20,7 @@ export default function App() {
           <Navbar />
           <Suspense fallback={<Loader />}>
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/wit-host" element={<Home />} />
               <Route path="/form" element={<Form />} />
               <Route path="/user" element={<UserPanel />} />
               <Route path="/loading" element={<Loader />} />

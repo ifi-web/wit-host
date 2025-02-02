@@ -6,7 +6,7 @@
   "homepage": "http://ifi-web.github.io/wit-host",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "npm run build",
     "lint": "eslint .",
     "preview": "vite preview",
     "perdeploy": "npm run build",
